@@ -2,7 +2,8 @@
  Task management backend app implemented using NodeJs, ExpressJs and MongoDB
   - Backend only app
   - Create, Read, Update and Delete operations implemented
-  - .env file for environment variables and sensitive information 
+  - .env file for environment variables and sensitive information
+  - Error handling done properly and details to how fix the errors
 
 # Documentation Link 
 **Link Below**
@@ -13,7 +14,8 @@
     - Endpoint url = 'http://localhost:8050/api/tasks/addTask'
     - POST request
     - Request to be sent in { "title": "Doing sketches", "description": "I am doing sketches on my i pad", "status": "pending" } in this format
-    - Try out posting new tasks by changing the value string
+    - Try out posting new tasks by changing the "value" part only DO NOT change the "key" part
+    - You can also add a creationDate key in the request where the date is the value
     - Response should be the posted data in json format or error(if any)
       
  - ### GET all tasks
@@ -53,4 +55,5 @@
   - You can't see output in the console so use postman
   - To see output in console, update all controller function by console.log(desired-result-variableName) before returning the response
   - The desired-result-variableName should be change with the variable_name where the response is expected
+  - All errors are handled for you
   - THEN YOU ARE ALL SET... HAPPY CODING...
