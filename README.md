@@ -51,7 +51,7 @@
 ```
   - Create a .env file in root(eg. Task-Management-App-Backend) folder
   - Create an environmental variable as COMPASS_URI = mongodb://127.0.0.1:27017/taskManagement
-  - Run the code by nodemon or node index.js in the terminal
+  - Run the code by nodemon or node index.js command in the terminal
   - You can't see output in the console so use postman
   - To see output in console, update all controller function by console.log(desired-result-variableName) before returning the response
   - The desired-result-variableName should be change with the variable_name where the response is expected
