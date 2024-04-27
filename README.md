@@ -12,7 +12,8 @@
  - ### POST an task
     - Endpoint url = 'http://localhost:8050/api/tasks/addTask'
     - POST request
-    - Request to be sent in { "title": "Doing sketches", "description": "Anin doing sketches on her i pad", "status": "pending" }
+    - Request to be sent in { "title": "Doing sketches", "description": "I am doing sketches on my i pad", "status": "pending" } in this format
+    - Try out posting new tasks by changing the value string
     - Response should be the posted data in json format or error(if any)
       
  - ### GET all tasks
